@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2025-01-20",
+    "company": "General Dynamics",
+    "product": "Abrams M1A2 SEPv3",
+    "customer": "US Army",
+    "region": "North America",
+    "threat/opportunity": "Upgrade contract awarded",
+    "source link": "https://example.com/abrams",
+    "confidence": "H"
+  },
+  {
+    "date": "",
+    "company": "Missing Date Company",
+    "product": "Test Product",
+    "customer": "Test Customer",
+    "region": "Test Region",
+    "threat/opportunity": "This should fail - no date",
+    "source link": "https://example.com/test",
+    "confidence": "M"
+  },
+  {
+    "date": "2025-01-21",
+    "company": "",
+    "product": "Missing Company Product",
+    "customer": "Test Customer",
+    "region": "Test Region",
+    "threat/opportunity": "This should fail - no company",
+    "source link": "https://example.com/test2",
+    "confidence": "L"
+  },
+  {
+    "date": "2025-01-22",
+    "company": "Boeing",
+    "product": "KC-46 Pegasus",
+    "customer": "USAF",
+    "region": "North America",
+    "threat/opportunity": "Delivery milestone reached",
+    "source link": "https://example.com/kc46",
+    "confidence": "X"
+  }
+]

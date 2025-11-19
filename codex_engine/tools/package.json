@@ -1,0 +1,19 @@
+﻿{
+  "name": "codex-engine",
+  "version": "4.0.0",
+  "description": "Codex Execution Engine tools for CGCE",
+  "main": "codex.mjs",
+  "type": "module",
+  "bin": {
+    "codex-engine": "./codex.mjs"
+  },
+  "scripts": {
+    "start": "node codex.mjs",
+    "status": "node codex.mjs status",
+    "plan": "node codex.mjs plan",
+    "test": "node codex.mjs test"
+  },
+  "dependencies": {
+    "openai": "^6.9.1"
+  }
+}

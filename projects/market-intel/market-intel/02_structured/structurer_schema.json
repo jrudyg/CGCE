@@ -1,0 +1,23 @@
+{
+  "fields": [
+    "entity",
+    "product",
+    "event_type",
+    "event_date",
+    "claim",
+    "evidence_path",
+    "evidence_locator",
+    "confidence",
+    "market_segment",
+    "geography",
+    "impact_area"
+  ],
+  "required": [
+    "entity",
+    "event_type",
+    "claim",
+    "evidence_path",
+    "evidence_locator",
+    "confidence"
+  ]
+}

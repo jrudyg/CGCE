@@ -1,0 +1,21 @@
+{
+  "name": "codex-cli",
+  "version": "1.0.0",
+  "description": "Local Codex CLI for CGCE",
+  "main": "codex.mjs",
+  "type": "module",
+  "bin": {
+    "codex": "./codex.mjs"
+  },
+  "scripts": {
+    "codex": "node codex.mjs",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1"
+  }
+}

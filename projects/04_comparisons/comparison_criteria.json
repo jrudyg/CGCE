@@ -1,0 +1,18 @@
+{
+  "criteria": [
+    "throughput",
+    "reliability",
+    "install_time",
+    "service_coverage",
+    "integration_effort",
+    "TCO_band",
+    "references",
+    "lead_time",
+    "SLA_terms"
+  ],
+  "legend": {
+    "EVIDENCED": "Cited evidence path and locator.",
+    "ESTIMATE_W_REASON": "Reasoned estimate with method note.",
+    "UNKNOWN": "Insufficient evidence."
+  }
+}

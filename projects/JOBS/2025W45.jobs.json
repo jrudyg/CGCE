@@ -1,0 +1,100 @@
+[
+  {
+    "task": "scanner",
+    "agent": "scanner_stub",
+    "inputs": [
+      "tests/fixtures/01_raw_scans_sample"
+    ],
+    "outputs": [
+      "01_raw_scans"
+    ],
+    "command": [
+      "python",
+      "agents/scanner_stub.py"
+    ]
+  },
+  {
+    "task": "structurer",
+    "agent": "structurer",
+    "inputs": [
+      "01_raw_scans/scanner_index.md"
+    ],
+    "outputs": [
+      "02_structured/signals.jsonl"
+    ],
+    "command": [
+      "python",
+      "agents/structurer.py"
+    ]
+  },
+  {
+    "task": "analyst",
+    "agent": "analyst",
+    "inputs": [
+      "02_structured/signals.jsonl"
+    ],
+    "outputs": [
+      "03_analysis/findings.md"
+    ],
+    "command": [
+      "python",
+      "agents/analyst.py"
+    ]
+  },
+  {
+    "task": "comparator",
+    "agent": "comparator",
+    "inputs": [
+      "03_analysis/findings.md"
+    ],
+    "outputs": [
+      "04_comparisons/AMR_vendors_demo.md"
+    ],
+    "command": [
+      "python",
+      "agents/comparator.py"
+    ]
+  },
+  {
+    "task": "strategist",
+    "agent": "strategist",
+    "inputs": [
+      "04_comparisons/AMR_vendors_demo.md"
+    ],
+    "outputs": [
+      "05_strategy/recommendation.md"
+    ],
+    "command": [
+      "python",
+      "agents/strategist.py"
+    ]
+  },
+  {
+    "task": "auditor",
+    "agent": "auditor",
+    "inputs": [
+      "05_strategy/recommendation.md"
+    ],
+    "outputs": [
+      "AUDIT/audit_report.md"
+    ],
+    "command": [
+      "python",
+      "agents/auditor.py"
+    ]
+  },
+  {
+    "task": "cleaner",
+    "agent": "cleaner",
+    "inputs": [
+      "AUDIT/prompt_patch.md"
+    ],
+    "outputs": [
+      "AUDIT/fix_log.md"
+    ],
+    "command": [
+      "python",
+      "agents/cleaner.py"
+    ]
+  }
+]

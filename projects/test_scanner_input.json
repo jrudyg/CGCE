@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2025-01-15",
+    "company": "Northrop Grumman",
+    "product/capability": "B-21 Raider",
+    "customer/location": "US Air Force / Edwards AFB",
+    "region": "North America",
+    "threat/opportunity": "First flight test successful, production timeline on track",
+    "source link": "https://example.com/b21-flight-test",
+    "confidence": "H"
+  },
+  {
+    "date": "2025-01-16",
+    "company": "Lockheed Martin",
+    "product": "F-35 Lightning II",
+    "customer": "Japan Air Self-Defense Force",
+    "region": "Asia-Pacific",
+    "threat_opportunity": "New contract for 20 additional aircraft",
+    "source": "https://example.com/f35-japan",
+    "confidence": "M"
+  },
+  {
+    "date": "2025-01-17",
+    "company": "Raytheon",
+    "capability": "SM-6 Missile",
+    "location": "US Navy / Pacific Fleet",
+    "region": "Global",
+    "opportunity": "Successful intercept test against hypersonic target",
+    "source_link": "https://example.com/sm6-test",
+    "confidence": "H"
+  },
+  {
+    "date": "2025-01-15",
+    "company": "Northrop Grumman",
+    "product/capability": "B-21 Raider",
+    "customer/location": "Different customer",
+    "region": "Europe",
+    "threat/opportunity": "This is a duplicate and should be skipped",
+    "source link": "https://example.com/duplicate",
+    "confidence": "L"
+  },
+  {
+    "date": "2025-01-18",
+    "company": "BAE Systems",
+    "product": "Tempest Fighter",
+    "customer": "UK Ministry of Defence",
+    "region": "Europe",
+    "threat/opportunity": "Development milestone achieved, partner nations expressing interest",
+    "source": "https://example.com/tempest-milestone",
+    "confidence": "M"
+  }
+]

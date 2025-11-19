@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python ingest_scanner_bullets.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

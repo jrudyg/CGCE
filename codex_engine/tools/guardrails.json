@@ -1,0 +1,12 @@
+﻿{
+  "denyPaths": ["infra/", ".github/", "migrations/", "secrets/"],
+  "allowExtensions": [".js", ".py", ".ts", ".java", ".md", ".json"],
+  "maxFilesPerStep": 12,
+  "maxTotalAddedLoc": 400,
+  "requirePlan": true,
+  "approvalTiers": {
+    "low": ["add comments", "format code"],
+    "medium": ["refactor", "add test"],
+    "high": ["change API", "delete files"]
+  }
+}

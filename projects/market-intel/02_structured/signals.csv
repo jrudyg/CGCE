@@ -1,0 +1,4 @@
+entity,product,event_type,event_date,claim,evidence_path,evidence_locator,confidence,market_segment,geography,impact_area
+ConveyorCo,UNKNOWN,unspecified,UNKNOWN,Claims reduced install time for brownfield sites.,01_raw_scans\20251109_202412_press_note_conveyorco.raw_01.raw.md,L1-L2,low,parcel/e-fulfillment,UNKNOWN,UNKNOWN
+WES,UNKNOWN,unspecified,UNKNOWN,Role mentions SLA ownership and conveyor/WCS integration for e-fulfillment.,01_raw_scans\20251109_202501_job_post_wes_vendor.raw_02.raw.md,L1-L2,low,parcel/e-fulfillment,UNKNOWN,UNKNOWN
+Geek,UNKNOWN,unspecified,UNKNOWN,Integration note: focuses on sortation to parcel injection.,01_raw_scans\20251109_202501_press_note_geekplus.raw_03.raw.md,L1-L2,low,parcel/e-fulfillment,UNKNOWN,UNKNOWN

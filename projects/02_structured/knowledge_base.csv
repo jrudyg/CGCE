@@ -1,0 +1,6 @@
+date,company,product,customer,region,threat_opportunity,source,confidence
+2025-01-15,Northrop Grumman,B-21 Raider,US Air Force / Edwards AFB,North America,"First flight test successful, production timeline on track",https://example.com/b21-flight-test,H
+2025-01-16,Lockheed Martin,F-35 Lightning II,Japan Air Self-Defense Force,Asia-Pacific,New contract for 20 additional aircraft,https://example.com/f35-japan,M
+2025-01-17,Raytheon,SM-6 Missile,US Navy / Pacific Fleet,Global,Successful intercept test against hypersonic target,https://example.com/sm6-test,H
+2025-01-18,BAE Systems,Tempest Fighter,UK Ministry of Defence,Europe,"Development milestone achieved, partner nations expressing interest",https://example.com/tempest-milestone,M
+2025-01-20,General Dynamics,Abrams M1A2 SEPv3,US Army,North America,Upgrade contract awarded,https://example.com/abrams,H

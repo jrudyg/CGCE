@@ -1,0 +1,4 @@
+﻿
+{"timestamp":"2025-11-18T20:48:18.803Z","step":"plan","goal":"Smoke-test Codex Engine on a small repo","status":"ok"}
+{"timestamp":"2025-11-18T20:58:30.735Z","step":"test","status":"skipped"}
+{"timestamp":"2025-11-18T21:10:20.622Z","step":"test","status":"failed","cmd":"powershell -ExecutionPolicy Bypass -File .\\\\cgce\\\\eval_v2.ps1","cwd":"C:\\\\Users\\\\jrudy\\\\CGCE"}
